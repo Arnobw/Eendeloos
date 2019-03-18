@@ -6,8 +6,17 @@
 
 
 h1 {
-    color: white;
+    color: #FFFFFF;
+
+text-shadow: -5px 5px 0px #00e6e6, -10px 10px 0px #01cccc, -15px 15px 0px #00bdbd;
+    
     font-family: 'Anton', sans-serif;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
 }
 
 img {
