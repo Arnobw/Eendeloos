@@ -15,7 +15,7 @@ $('#btn').on('click', function () {
         $('#eenden').append('<img src="scroll.png">');
         teller = 0;
     } else {
-        window.onscroll = function () {
+        window.addEventListener('scroll',  function () {
 
             if (teller < 20) {
                 teller++;
@@ -26,9 +26,10 @@ $('#btn').on('click', function () {
             };
             console.log(teller);
 
-        }
+        })
     }
-});
+} );
+
 
 
 console.log("Kwaak");
